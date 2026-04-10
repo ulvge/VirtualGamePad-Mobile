@@ -22,6 +22,13 @@ jobs:
           chmod +x gradlew
           ./gradlew build lint test --stacktrace
 
+      # --- 新增以下步骤 ---
+      - name: Upload APK
+        uses: actions/upload-artifact@v7
+        with:
+          name: app-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+      # --------------------
   # Job 2: Parallel Instrumented Tests
   instrumented-tests:
     needs: build-and-unit-test # Only run if build/unit tests pass
