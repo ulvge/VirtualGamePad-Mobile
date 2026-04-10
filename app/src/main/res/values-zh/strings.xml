@@ -9,23 +9,23 @@
 
     <!-- Settings Screen -->
     <string name="settings_title">设置</string>
-    <string name="settings_theme_color">Theme Color</string>
-    <string name="settings_color_scheme">Color Scheme</string>
-    <string name="settings_polling_interval">Polling Interval (ms)</string>
-    <string name="settings_polling_interval_desc">Adjust according to your reflexes\nLower is faster</string>
-    <string name="settings_polling_interval_info">Information about polling interval</string>
+    <string name="settings_theme_color">主题颜色</string>
+    <string name="settings_color_scheme">设置按钮主题</string>
+    <string name="settings_polling_interval">轮询间隔（毫秒）</string>
+    <string name="settings_polling_interval_desc">根据你的反应能力进行调整\n降低的速度更快</string>
+    <string name="settings_polling_interval_info">轮询间隔信息</string>
     <string name="settings_haptic_feedback">触觉反馈</string>
-    <string name="settings_save_connection_credentials">Remember IP Address and Port</string>
-    <string name="settings_full_screen">Full Screen</string>
+    <string name="settings_save_connection_credentials">记住IP和端口</string>
+    <string name="settings_full_screen">全屏</string>
     <string name="settings_customize_layout">自定义布局</string>
     <string name="settings_error_save">Error saving settings</string>
 
     <!-- About Screen -->
-    <string name="about_title">🎮 Virtual GamePad Mobile</string>
-    <string name="about_version">Version %s</string>
+    <string name="about_title">🎮 游戏手柄( 周修远 )</string>
+    <string name="about_version">版本 %s</string>
     <string name="about_view_license">View Licence</string>
     <string name="about_latest_release">Latest Release</string>
-    <string name="about_description">A mobile application that lets your phone work as a gamepad for PC games.</string>
+    <string name="about_description">让你的安卓手机，成为游戏手柄</string>
     <string name="about_source_code">Source Code</string>
     <string name="about_project_website">Project Website</string>
     <string name="about_report_issues">Report Issues</string>
@@ -33,20 +33,20 @@
 
     <!-- Gamepad Customization -->
     <string name="customization_title">自定义手柄布局</string>
-    <string name="customization_desc">Customize individual button visibility, size, and position</string>
-    <string name="customization_export">Export</string>
-    <string name="customization_preview">Preview Gamepad</string>
-    <string name="customization_import">Import</string>
-    <string name="customization_export_title">Export Configuration</string>
-    <string name="customization_export_desc">Copy this JSON to share or backup your configuration:</string>
-    <string name="customization_export_label">Gamepad Layout JSON</string>
-    <string name="customization_copy">Copy</string>
-    <string name="customization_done">Done</string>
-    <string name="customization_import_title">Import Configuration</string>
-    <string name="customization_import_desc">Paste the JSON configuration to import:</string>
-    <string name="customization_import_error">Error: Invalid JSON format</string>
-    <string name="customization_import_placeholder">Paste JSON here...</string>
-    <string name="customization_error_save">Error saving button configs</string>
+    <string name="customization_desc">自定义单个按钮的可见性、大小和位置</string>
+    <string name="customization_export">导出</string>
+    <string name="customization_preview">预览手柄</string>
+    <string name="customization_import">导入</string>
+    <string name="customization_export_title">导出配置</string>
+    <string name="customization_export_desc">复制此 JSON 以分享或备份您的配置：</string>
+    <string name="customization_export_label">手柄布局 JSON</string>
+    <string name="customization_copy">复制</string>
+    <string name="customization_done">完成</string>
+    <string name="customization_import_title">导入配置</string>
+    <string name="customization_import_desc">粘贴 JSON 配置以导入：</string>
+    <string name="customization_import_error">错误：无效的 JSON 格式</string>
+    <string name="customization_import_placeholder">在此处粘贴 JSON...</string>
+    <string name="customization_error_save">保存按钮配置时出错</string>
 
     <!-- Connect Screen -->
     <string name="connect_qr_error_format">Invalid QR Code format</string>
@@ -60,7 +60,7 @@
     <string name="connect_ip_label">IP地址</string>
     <string name="connect_port_label">端口</string>
     <string name="connect_button">连接</string>
-    <string name="connect_download_server">Download Server</string>
+    <string name="connect_download_server">下载PC服务端</string>
 
     <!-- Connecting Screen -->
     <string name="connecting_success">Connected! Redirecting...</string>
@@ -139,14 +139,14 @@
     <string name="component_start">Start (Menu)</string>
 
     <!-- Color Schemes -->
-    <string name="scheme_light">Light Mode</string>
-    <string name="scheme_dark">Dark Mode</string>
-    <string name="scheme_system">System Default</string>
+    <string name="scheme_light">白天模式</string>
+    <string name="scheme_dark">晚上模式</string>
+    <string name="scheme_system">系统默认</string>
 
     <!-- Colors -->
-    <string name="color_red">Red</string>
-    <string name="color_green">Green</string>
-    <string name="color_blue">Blue</string>
+    <string name="color_red">红</string>
+    <string name="color_green">绿</string>
+    <string name="color_blue">蓝</string>
 
     <!-- Theme Preview -->
     <string name="theme_preview_title">Theme Color Palette</string>

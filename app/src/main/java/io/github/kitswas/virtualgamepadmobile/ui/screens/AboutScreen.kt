@@ -44,11 +44,11 @@ fun AboutScreen(
     val scrollState = rememberScrollState()
 
     // GitHub URLs
-    val projectUrl = "https://kitswas.github.io/VirtualGamePad/"
-    val mobileRepoUrl = "https://github.com/kitswas/VirtualGamePad-Mobile/"
-    val mobileLicenseUrl = "https://github.com/kitswas/VirtualGamePad-Mobile/blob/main/LICENCE.TXT"
-    val issuesUrl = "https://github.com/kitswas/VirtualGamePad-Mobile/issues/new"
-    val releaseUrl = "https://github.com/kitswas/VirtualGamePad-Mobile/releases/latest"
+    val projectUrl = "https://github.com/ulvge/VirtualGamePad-Mobile/"
+    val mobileRepoUrl = "https://github.com/ulvge/VirtualGamePad-Mobile/"
+    val mobileLicenseUrl = "https://github.com/ulvge/VirtualGamePad-Mobile/blob/main/LICENCE.TXT"
+    val issuesUrl = "https://github.com/ulvge/VirtualGamePad-Mobile/issues/new"
+    val releaseUrl = "https://github.com/ulvge/VirtualGamePad-Mobile/releases/latest"
 
     Scaffold { paddingValues ->
         Column(
